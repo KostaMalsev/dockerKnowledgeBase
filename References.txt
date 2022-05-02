@@ -12,4 +12,10 @@ docker run -p 8000:80
 (where 8000 is local machine port, and 80 is the container mapped port).
 can add -d to mention the deamon name inside the container.
 
-5. Installing docker for 
+5. Installing docker for macOS
+
+
+
+
+apt-get install libssl-dev libcurl4-openssl-dev liblog4cplus-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-base-apps gstreamer1.0-plugins-bad gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools
+
