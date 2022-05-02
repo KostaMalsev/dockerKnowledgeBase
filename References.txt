@@ -1,2 +1,7 @@
+1. How to check the docker container ip:
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
 
-
+2. Node official docker image:
+https://hub.docker.com/_/node
+
+
