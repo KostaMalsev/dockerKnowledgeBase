@@ -4,4 +4,12 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' cont
 2. Node official docker image:
 https://hub.docker.com/_/node
 
+3. Check the ports open for the container:
+docker port CONTAINER
+
+4. Mapping the container ports to local host port:
+docker run -p 8000:80 
+(where 8000 is local machine port, and 80 is the container mapped port).
+can add -d to mention the deamon name inside the container.
+
 
