@@ -12,4 +12,4 @@ docker run -p 8000:80
 (where 8000 is local machine port, and 80 is the container mapped port).
 can add -d to mention the deamon name inside the container.
 
-
+5. Installing docker for 
