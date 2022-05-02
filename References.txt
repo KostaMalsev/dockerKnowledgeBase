@@ -14,6 +14,9 @@ can add -d to mention the deamon name inside the container.
 
 5. Installing docker for macOS
 
+6. Running commands on docker under root :
+docker exec -u root <containerid>
+
 
 
 
